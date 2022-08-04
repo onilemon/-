@@ -49,10 +49,6 @@ main {
   background-size: cover;
 }
 
-.box:last-child {
-  margin-right: 0;
-}
-
 .step-img3 {
   height: 150px;
   background-image: url(img/flow03.png);
@@ -75,13 +71,22 @@ footer {
     width: 100%;
     margin: 50px auto;
     display: block;
+
   }
 
   .box {
   width: 90%;
   padding: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
   position: relative;
   background-color: #EEEEEE;
+}
+
+.box:last-chid {
+  margin-left: auto;
+  margin-right: auto;
 }
 
   footer {
